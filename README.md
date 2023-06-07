@@ -5,8 +5,8 @@ People Involved :
 
 
 Mentors:
-[Kshitij M. Bhat](https://github.com/KshitijBhat) 
-[Sairaj R. Loke](https://github.com/SairajLoke)
+- [Kshitij M. Bhat](https://github.com/KshitijBhat) 
+- [Sairaj R. Loke](https://github.com/SairajLoke)
 
 Members:
 
