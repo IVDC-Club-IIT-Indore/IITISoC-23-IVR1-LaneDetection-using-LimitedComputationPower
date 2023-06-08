@@ -10,7 +10,7 @@ Mentors:
 
 Members:
 
-1.AMPADY B R ( https://github.com/ampady06 )
+1.[AMPADY B R](https://github.com/ampady06)
 2.
 3.
 4.
