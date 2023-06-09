@@ -10,7 +10,8 @@ Mentors:
 
 Members:
 
-1.[AMPADY B R](https://github.com/ampady06)
-2.
-3.
-4.
+
+1.
+2.[Arjun S Nair](https://github.com/arjun-593)
+3.[AMPADY B R](https://github.com/ampady06)
+4.[Aditya Singh](https://github.com/AdityaSingh1199)
