@@ -10,7 +10,7 @@ Mentors:
 
 Members:
 
-1.
+1.[Arjun S Nair](https://github.com/arjun-593)
 2.
 3.
 4.[Aditya Singh](https://github.com/AdityaSingh1199)
