@@ -9,8 +9,8 @@ Mentors:
 - [Sairaj R. Loke](https://github.com/SairajLoke)
 
 Members:
-
-1.[Arjun S Nair](https://github.com/arjun-593)
-2.
-3.
-4.
+<br>
+- [Bhawna Chaudhary](https://github.com/WebWizard104)
+- [Arjun S Nair](https://github.com/arjun-593)
+- [AMPADY B R](https://github.com/ampady06)
+- [Aditya Singh](https://github.com/AdityaSingh1199)
