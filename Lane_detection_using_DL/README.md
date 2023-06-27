@@ -6,7 +6,7 @@ the dataset are used from [dataset1](https://github.com/mvirgo/MLND-Capstone) an
 ## Download
 The mixed dataset utilized in this work can be found [here](https://drive.google.com/drive/folders/11R40PdKmEBYpntgvVmQFbsE7LfIK8UEv?usp=drive_link)
 
-#Result
+## Result
 Lanes predicted using the model can be found [here](https://github.com/ampady06/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/model_training.ipynb)
 
 # Key Files
