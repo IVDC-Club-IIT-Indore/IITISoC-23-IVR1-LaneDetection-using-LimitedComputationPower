@@ -14,15 +14,3 @@ Lanes predicted using the model can be found [here](https://drive.google.com/dri
 
 2. [Trained_model.h5](https://github.com/ampady06/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Trained_model.h5)-These are the final outputs from the above CNN. Note that if you train the file above the originals here will be overwritten! These get fed into the below.
 3. [Lane_detection.py](https://github.com/ampady06/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_detection.py) -Using the trained model and an input video, this predicts the lane, and returns the original video with predicted lane lines drawn onto it.
-
-# Citation
-@article{sensors-22-05595,
-  title={LLDNet: A Lightweight Lane Detection Approach for Autonomous Cars Using Deep Learning},
-  author={Khan, M.A.-M.; Haque, M.F.; Hasan, K.R.; Alamjani, S.H.; Baz, M.; Masud, M.; Al-Nahid, A.},
-  journal={Sensors},
-  volume={22},
-  year={2022},
-}
-
-
-
