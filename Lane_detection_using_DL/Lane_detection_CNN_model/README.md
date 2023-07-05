@@ -26,6 +26,7 @@ Lanes predicted using the model can be found [here](https://drive.google.com/dri
 2. [model.h5](https://github.com/WebWizard104/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/Feature/Lane_detection_using_DL/Lane_detection_CNN_model/model.h5)- These are the final outputs from above CNN
 3. [run.ipynb](https://github.com/WebWizard104/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/Feature/Lane_detection_using_DL/Lane_detection_CNN_model/run.ipynb)- this is used to test the model on images.
 4. [test.py](https://github.com/WebWizard104/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/Feature/Lane_detection_using_DL/Lane_detection_CNN_model/test.py)- this is useed to test the model on input videos
+5. [computation.py](https://github.com/WebWizard104/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/Feature/Lane_detection_using_DL/Lane_detection_CNN_model/computation.py)- this can be used to check computation effeciency of the model. On modifying model architecture and forward pass,it can be used for custom models also.
 
 ## Performance Metrics:
 The performances metrics to be used for evaluating the build model are confusion matrix, Precision, recall, ROC curve, PR curve, Mean Squared Error(MSE) and mAP score.
