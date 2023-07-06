@@ -1,0 +1,16 @@
+
+beautifulsoup4==4.12.2
+keras==2.12.0
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+numpy==1.23.5
+opencv-python==4.7.0.72
+Pillow==9.5.0
+prompt-toolkit==3.0.38
+PyYAML==6.0
+scipy
+tensorboard==2.12.3
+tensorflow==2.12.0
+urllib3==1.26.16
+wrapt==1.14.1
+moviepy
