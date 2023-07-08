@@ -38,4 +38,5 @@ Precision, recall, IOU, F1 score and dice coefficient are used to evaluate the p
 
 References:
 [1]MLND Capstone project for Udacity's Machine Learning Nanodegree, (2017), Github reposoitory, https://github.com/mvirgo/MLND-Capstone
+
 [2] Pytorch Profiler ,PyTorch Recipes[ + ], https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html
