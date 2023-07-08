@@ -20,12 +20,8 @@ The mixed dataset utilized in this work can be found [here](https://drive.google
 Lanes predicted using this model along with the input videos can be found [here](https://drive.google.com/drive/folders/1CsjWxevyYMTNpWf55BZCu7_ucUSHx5cZ?usp=sharing).
 
 ## _*KEY FILES*_
-1.[model_training](Lane_detection_using_DL/DL_based_Lane_Detection/model_training.py)- After downloading the training images and labels above, this is the fully convolutional neural network to train using that data.
-
-2.[demo.py](Lane_detection_using_DL/DL_based_Lane_Detection/demo.py)- Pipeline that returns the output video with lanes predicted using the already trained model and input video.
-
+1.[demo.py](Lane_detection_using_DL/DL_based_Lane_Detection/demo.py)- Pipeline that returns the output video with lanes predicted using the already trained model and input video.
+2.[model_training](Lane_detection_using_DL/DL_based_Lane_Detection/model_training.py)- After downloading the training images and labels above, this is the fully convolutional neural network to train using that data.
 3.[full_CNN_model.h5](Lane_detection_using_DL/DL_based_Lane_Detection/full_CNN_model.h5)- This is the final outputs from the above model training CNN.
-
 4.[model_evaluation.py](Lane_detection_using_DL/DL_based_Lane_Detection/model_evaluation.py)- To evaluate the trained model using various metrics such as F1 score, recall, precision, IOU and dice coefficient. Basically it loads a model from an .h5 file, loads the data, makes predictions using the loaded model, and calculates the metrics for evaluation.
-
 5.[cpu_&ram_usage.py](Lane_detection_using_DL/DL_based_Lane_Detection/cpu_&_ram_usage.py)- This profile the CPU activities during the inference of the PyTorch model and also measures the memory usage of the PyTorch model.
