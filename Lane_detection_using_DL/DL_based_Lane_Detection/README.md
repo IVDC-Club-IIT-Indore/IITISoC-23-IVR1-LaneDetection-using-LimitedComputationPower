@@ -25,3 +25,5 @@ Lanes predicted using this model along with the input videos can be found [here]
 2.[demo.py](Lane_detection_using_DL/DL_based_Lane_Detection/demo.py)- Pipeline that returns the output video with lanes predicted using the already trained model and input video.
 
 3.[full_CNN_model.h5](Lane_detection_using_DL/DL_based_Lane_Detection/full_CNN_model.h5)- This is the final outputs from the above model training CNN.
+
+4.[model_evaluation.py](Lane_detection_using_DL/DL_based_Lane_Detection/model_evaluation.py)- To evaluate the trained model using various metrics such as F1 score, recall, precision, IOU and dice coefficient. Basically it loads a model from an .h5 file, loads the data, makes predictions using the loaded model, and calculates the metrics for evaluation.
