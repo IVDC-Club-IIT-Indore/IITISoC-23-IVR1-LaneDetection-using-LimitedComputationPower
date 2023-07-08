@@ -20,4 +20,5 @@ The mixed dataset utilized in this work can be found [here](https://drive.google
 Lanes predicted using this model along with the input videos can be found [here](https://drive.google.com/drive/folders/1CsjWxevyYMTNpWf55BZCu7_ucUSHx5cZ?usp=sharing).
 
 ## _*KEY FILES*_
-1.[model_training](Lane_detection_using_DL/DL_based_Lane_Detection/model_training.py)After downloading the training images and labels above, this is the fully convolutional neural network to train using that data.
+1.[model_training](Lane_detection_using_DL/DL_based_Lane_Detection/model_training.py)- After downloading the training images and labels above, this is the fully convolutional neural network to train using that data.
+[demo.py](Lane_detection_using_DL/DL_based_Lane_Detection/demo.py)- Pipeline that returns the output video with lanes predicted using the already trained model and input video.
