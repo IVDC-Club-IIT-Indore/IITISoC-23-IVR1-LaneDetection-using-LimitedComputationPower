@@ -1,5 +1,5 @@
 ## LANE DETECTION WITH DEEP LEARNING
-I use a deep learning-based approach to improve upon lane detection. 
+I have used a deep learning-based approach to improve upon lane detection. 
 My final model uses a fully convolutional neural network to output an image of a predicted lane.
 
 ## DATASETS
