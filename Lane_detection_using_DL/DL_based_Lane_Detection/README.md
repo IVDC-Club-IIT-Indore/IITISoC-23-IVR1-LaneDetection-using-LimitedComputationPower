@@ -14,9 +14,9 @@ The original training images with no flips or rotations (downsized to 80x160x3) 
 related coefficient labels (i.e. not the drawn lane labels, but the cofficients for a polynomial line) can be found [here](https://www.dropbox.com/s/ieulvrcooetrlmd/coeffs_labels.p?dl=0).
 
 ## _*DOWNLOAD*_
-The mixed dataset utilized in this work can be found [here]().
+The mixed dataset utilized in this work can be found [here](https://drive.google.com/drive/folders/10PHvTpcQVyxpXFE_-pcghTuJTo7uZpZb?usp=sharing).
 
 ## _*RESULT*_
-Lanes predicted using this model along with the input videos can be found [here]().
+Lanes predicted using this model along with the input videos can be found [here](https://drive.google.com/drive/folders/1CsjWxevyYMTNpWf55BZCu7_ucUSHx5cZ?usp=sharing).
 
 ## _*KEY FILES*_
