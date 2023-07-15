@@ -1,4 +1,9 @@
-#YOLOP
+# YOLOP
 Earlier we used traditional methods(canny edge and Hough Transform) for the lane detections but it was not a good option for complex curves , shadows, varying colors on road, bad weather conditions. Then we extended our approach to use Deep Learning models and tried different CNN models for single Lane detection,, we got satisfying results but due to limitations like multiple lanes were not detected, occlusionsdue to vehicles and pedestrians were affecting lane detection so  we extended our approach to models which can give good results for multiple lane detection and use the global context information to infer the vacancy or occluded part . By using YOLOP we tried **multiple lane detection, drivable area ** although **object detection** is not part of our project . Constraint of computational power and deployment of model on edge devices was kept in mind. This model can reach real-time on embedded device Jetson TX2 with TensorRT deployment
 
 ## Architecture
+[. The architecture of YOLOP. YOLOP shares one encoder and combines three decoders to solve different tasks. The encoder consists of a backbone and a neck.](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/YOLOP/yolop_architecture.png)
+A lightweight CNN is used as the encoder to extract features from the image. Then these feature maps are fed to three decoders to complete their respective tasks.
+
+## Results
+
