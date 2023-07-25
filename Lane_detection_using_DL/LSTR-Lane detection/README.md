@@ -5,7 +5,20 @@ segmenation** and **lane detection** both.(Although we avoided Obstacle and obje
 deployment of model on edge devices was kept in mind. This model can reach real-time on embedded device Jetson TX2 with TensorRT deployment.
 
 ## Requirements
-Check the requirements.txt file. Additionally you'll have to download the onnx models and the pretrained Pytorch model
+Check the requirements.txt file. Additionally you'll have to download the onnx models, pretrained Pytorch model and also download and extract TuSimple train, val and test with annotations.
+
+## Data Preperation
+Download and extract TuSimple train, val and test with annotations from [TuSimple](https://github.com/TuSimple/tusimple-benchmark). Set the directory structure like:
+```
+TuSimple/
+    LaneDetection/
+        clips/
+        label_data_0313.json
+        label_data_0531.json
+        label_data_0601.json
+        test_label.json
+    LSTR/
+```
 
 ## Installation
 Navigate to C drive and create a folder named LSTR 
@@ -30,5 +43,24 @@ The pretrained pytorch model can be found [here](https://drive.google.com/drive/
 ## Results
 Lanes predicted using this model along with the input videos and images can be found [here](https://drive.google.com/drive/folders/1O5_s5Do6JK9OnM6kb-BMITNsS5R5h06w?usp=sharing).
 
-## Key Files
+## Training
+To train a model:
+(if you only want to use the train set, please see ./config/LSTR.json and set "train_split": "train")
+```
+python train.py LSTR
+```
+
+## Examples
+**Image Inference :**
+```
+python image_lane_detection.py
+```
+**Video Inference: **
+```
+python video_lane_detection.py
+```
+## Key Files: 
+
+
+
 
