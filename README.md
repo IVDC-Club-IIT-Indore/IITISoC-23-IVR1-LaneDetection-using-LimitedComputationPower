@@ -133,4 +133,43 @@ During our comprehensive testing, we considered multiple deep learning architect
     </tr>
   </tbody>
 </table>
-
+**Comparison of YOLOP, YOLOPV2, Hybridnets**
+<table>
+  <thead>
+    <tr>
+      <td> <strong> Model </strong> </td>
+      <td> <strong> Parameters(million) </strong> </td>
+      <td> <strong> Size(KB) </strong> </td>
+      <td> <strong> Accuracy </strong></td>
+      <td> <strong> IoU(Lane line) </strong> </td>
+      <td> <strong> IoU(Drivable area) </strong> </td>
+      <td> <strong> FPS </strong> </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> <strong> YOLOP </strong> </td>
+      <td> 7.9 </td>
+      <td> 31,763 </td>
+      <td> 0.70 </td>
+      <td> 0.262</td>
+      <td> 0.91 </td>
+      <td> 10 </td>
+    </tr>
+    <tr>
+      <td> <strong> YOLOPv2 </strong></td>
+      <td> 48.64 </td>
+      <td> 38955 </td>
+      <td> 42 </td>
+    </tr>
+    <tr>
+      <td> <strong> Hybridnets </strong></td>
+      <td> 13 </td>
+      <td> 54,482 </td>
+      <td> 0.85 </td>
+      <td> 0.31</td>
+      <td> 0.95 </td>
+      <td> 12 </td>
+    </tr>
+  </tbody>
+</table>
