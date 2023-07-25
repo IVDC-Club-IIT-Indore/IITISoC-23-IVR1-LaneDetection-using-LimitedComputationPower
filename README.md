@@ -125,12 +125,13 @@ During our comprehensive testing, we considered multiple deep learning architect
       <td> CNN 3 </td>
       <td> 125,947 </td>
       <td> 55 </td>
-      <td> </td>
-      <td> </td>
+      <td> 0.97 </td>
+      <td> 0.984 </td>
+      <td> 0.99 </td>
       <td> 0.97 </td>
       <td> </td>
-      <td> </td>
-      <td> </td>
+      <td> 0.987 </td>
+      <td> 0.976 </td>
     </tr>
   </tbody>
 </table>
