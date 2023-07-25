@@ -62,7 +62,7 @@ python video_lane_detection.py
 ## Key Files: 
 1. [image_lane_detection](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/LSTR-Lane%20detection/image_lane_detection.py) and [video_lane_detection](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/LSTR-Lane%20detection/video_lane_detection.py): These two pipelines return output images and videos with lanes predicted using the already trained model and input feed.
 
-2.[train](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/LSTR-Lane%20detection/train.py): After downloading the training images and labels above, this is the training file to obtain the trained file for inference.
+ 2.[train](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/LSTR-Lane%20detection/train.py): After downloading the training images and labels above, this is the training file to obtain the trained file for inference.
 
 3.[lstr](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/LSTR-Lane%20detection/lstr/lstr.py): Contains the necessary classes and functions needed to run the video and image tests.
 
