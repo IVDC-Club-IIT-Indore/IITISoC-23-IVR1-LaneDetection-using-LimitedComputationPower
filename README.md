@@ -82,6 +82,7 @@ We carefully curated and tested several state-of-the-art deep learning models fo
 
 #### Model Evaluation :
 During our comprehensive testing, we considered multiple deep learning architectures, such as CNNs, HybridNets, YOLOP, YOLOPv2, and LSTR. Each model underwent rigorous evaluation using performance metrics like Mean Average Precision (mAP), Intersection over Union (IoU), and inference speed (fps), precision, recall, f1 score.
+<br>
 **Comparison of 3 CNN Models**
 <table align = "center">
   <thead>
