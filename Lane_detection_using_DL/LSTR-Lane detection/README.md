@@ -4,7 +4,15 @@ to deep learning models and worked on different CNN models. This yeilded good re
 segmenation** and **lane detection** both.(Although we avoided Obstacle and object detection in the scope of our project).Constraint of computational power and 
 deployment of model on edge devices was kept in mind. This model can reach real-time on embedded device Jetson TX2 with TensorRT deployment.
 
-## RESULTS
+## Requirements
+Check the requirements.txt file. Additionally you'll have to download the trained models
+
+## Installation
+
+## Downloads
+
+
+## Results
 Lanes predicted using this model along with the input videos and images can be found [here](https://drive.google.com/drive/folders/1O5_s5Do6JK9OnM6kb-BMITNsS5R5h06w?usp=sharing)
 
 ## Key Files
