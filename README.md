@@ -19,7 +19,7 @@ Members:
 ### Outline :
 This repository contains the implementation of a lane detection system using two different approaches. The main goal of this project was to understand the core fundamentals of lane detection in images. The two approaches utilized are as follows:
 <br>
-- [Approach-1](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetectionusingLimitedComputationPower/blob/main/NonDL_Lane_Detection.ipynb) - Foundation Approach( Lane Detection using Canny Egde and Hough transform)
+- [Approach-1](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/NonDL_Lane_Detection.ipynb) - Foundation Approach( Lane Detection using Canny Egde and Hough transform)
 - [Approach-2](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/tree/main/Lane_detection_using_DL) - Advanced approach with Deep Learning.
 
 ### Approach-1 :
