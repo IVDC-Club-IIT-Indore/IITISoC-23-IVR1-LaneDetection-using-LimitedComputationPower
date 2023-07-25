@@ -161,8 +161,8 @@ During our comprehensive testing, we considered multiple deep learning architect
     <tr>
       <td> <strong> YOLOPv2 </strong></td>
       <td> 48.64 </td>
-      <td> 38955 </td>
-      <td> 42 </td>
+      <td> 38,955 </td>
+      <td> 0.42 </td>
     </tr>
     <tr>
       <td> <strong> Hybridnets </strong></td>
