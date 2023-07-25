@@ -69,7 +69,7 @@ Similarly replace the input_video.mp4 with desired video path in your device.
 
 ## Key Files
 
-**References :**
+References :
 
 [1]CAIC-AD / YOLOPv2(2022), Github Repository, https://github.com/CAIC-AD/YOLOPv2
 
