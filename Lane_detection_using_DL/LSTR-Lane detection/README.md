@@ -8,6 +8,18 @@ deployment of model on edge devices was kept in mind. This model can reach real-
 Check the requirements.txt file. Additionally you'll have to download the trained models
 
 ## Installation
+Initially navigate to C drive of your dive and create a folder named LSTR 
+```
+cd C:\
+mkdir LSTR
+cd C:\LSTR
+```
+Then create a conda environment. Then install the requirements using the pip command 
+```
+conda create --name LSTR
+conda activate LSTR
+pip install -r requirements.txt
+```
 
 ## Downloads
 
