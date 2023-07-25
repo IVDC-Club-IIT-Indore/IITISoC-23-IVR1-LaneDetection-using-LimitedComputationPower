@@ -133,8 +133,9 @@ During our comprehensive testing, we considered multiple deep learning architect
     </tr>
   </tbody>
 </table>
-**Comparison of YOLOP, YOLOPV2, Hybridnets**
-<table>
+<br>
+<strong> Comparison of YOLOP, YOLOPV2, Hybridnets : </strong>
+<table align="center">
   <thead>
     <tr>
       <td> <strong> Model </strong> </td>
