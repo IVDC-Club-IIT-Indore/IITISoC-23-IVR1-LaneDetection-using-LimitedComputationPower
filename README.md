@@ -237,3 +237,5 @@ After post-training static quantization we end up reducing our model size and ge
 [7] ibaiGorordo / ONNX-LSTR-Lane-Detection(2021), Github repository, https://github.com/ibaiGorordo/ONNX-LSTR-Lane-Detection
   
 [8]CAIC-AD / YOLOPv2(2022), Github Repository, https://github.com/CAIC-AD/YOLOPv2
+
+[9]For quantisation : https://www.researchgate.net/publication/372248473_Q-YOLOP_Quantization-aware_You_Only_Look_Once_for_Panoptic_Driving_Perception
