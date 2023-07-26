@@ -84,6 +84,11 @@ We carefully curated and tested several state-of-the-art deep learning models fo
   #### Predicted Results :
   the result for the three CNN models, YOLOP, YOLOPv2, LSTR and hybridnets can be found [here](https://drive.google.com/drive/folders/116NJ985ODlUZG95Dph85_vxKQ6EUXhgI?usp=drive_link)
 
+## System Specifications :
+All the work is done in 3 devices(2 of which are same) namely asus vivobook 15 pro and HP Pavilion Gaming 15 ec2008AX. 
+**HP Pavilion Gaming 15 ec2008AX** has **Processor AMD Hexa Core Ryzen 5 5600H**, **RAM 8 GB DDR4 RAM** meanwhile the vivobook 15 pro is a **12th Gen Intel Core H-series processors with 16 GB of LPDDR5 RAM, and an NVIDIA ® GeForce ® RTX ™ 3050 Ti GPU**
+
+
 #### Model Evaluation :
 During our comprehensive testing, we considered multiple deep learning architectures, such as CNNs, HybridNets, YOLOP, YOLOPv2, and LSTR. Each model underwent rigorous evaluation using performance metrics like Mean Average Precision (mAP), Intersection over Union (IoU), and inference speed (fps), precision, recall, f1 score.
 <br>
