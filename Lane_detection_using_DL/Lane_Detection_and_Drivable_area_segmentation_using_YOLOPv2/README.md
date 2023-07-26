@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## Day-time and Night-time visualization results
 
-![comparison](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_Detection_and_Drivable_area_segmentation_using_YOLOPv2/data/demo/day_and_night_results.jpg).
+![comparison](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_Detection_and_Drivable_area_segmentation_using_YOLOPv2/data/demo/day_and_night_results.jpg | width=100).
 
 ## Models
 The pretrained model file(.pt) can be downloaded from [here](https://drive.google.com/drive/folders/16OZK_zvGecemXcUylyX_sc_z8lL8PS24?usp=sharing). In addition you can also download an ONNX model file.
