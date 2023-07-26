@@ -81,6 +81,9 @@ We carefully curated and tested several state-of-the-art deep learning models fo
  </li>
   </ul>
 
+  #### Predicted Results :
+  the result for the three CNN models, YOLOP, YOLOPv2, LSTR and hybridnets can be found [here](https://drive.google.com/drive/folders/116NJ985ODlUZG95Dph85_vxKQ6EUXhgI?usp=drive_link)
+
 #### Model Evaluation :
 During our comprehensive testing, we considered multiple deep learning architectures, such as CNNs, HybridNets, YOLOP, YOLOPv2, and LSTR. Each model underwent rigorous evaluation using performance metrics like Mean Average Precision (mAP), Intersection over Union (IoU), and inference speed (fps), precision, recall, f1 score.
 <br>
