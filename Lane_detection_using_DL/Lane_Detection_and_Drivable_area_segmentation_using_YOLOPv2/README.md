@@ -86,7 +86,7 @@ Similarly replace the input_video.mp4 with desired video path in your device.
 
 2.[demo](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_Detection_and_Drivable_area_segmentation_using_YOLOPv2/demo.py): Pipeline return output images and videos with lanes predicted using the already trained model and input feed.
 
-3.[custom_demo](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_Detection_and_Drivable_area_segmentation_using_YOLOPv2/custom_demo.py): A slightly modified version for which the code is present in the custom_demo.py file. It is an almost exact copy of the original with a few minor changes.
+3.[custom_demo](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_Detection_and_Drivable_area_segmentation_using_YOLOPv2/custom_demo.py): A slightly modified version for which the code is present in the custom_demo.py file. It is an almost exact copy of the original with a few minor changes. Basically it detects only the lanes and no drivable area is detected.
 
 References :
 
