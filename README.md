@@ -1,4 +1,8 @@
 # IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower
+
+<img src="https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/10cf6b34-fb81-4bc9-90c3-4c2df9ebd510" width = 1280 height = 725>
+
+
 ## Goal :
 To Develop a robust lane detection pipeline that consumes meager computational resources (No GPU allowed, limited CPU and RAM usage) and could be deployed on NVIDIA Jetson Nano Board or even a Raspberry Pi board
 
@@ -148,6 +152,9 @@ During our comprehensive testing, we considered multiple deep learning architect
 <strong> Graphical representation of comparison of models </strong>
 
 ![Untitled design](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/bf0d2410-f003-48e4-af58-7d7d436c8dc3)
+
+<img src="https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/91740d33-e381-499f-ac3a-54c6623b9273" width = 1280 height = 180 >
+
 
 <strong> Comparison of YOLOP, YOLOPV2, Hybridnets : </strong>
 <table align="center">
