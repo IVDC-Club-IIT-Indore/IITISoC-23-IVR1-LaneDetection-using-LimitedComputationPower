@@ -45,20 +45,22 @@ pip install -r requirements.txt
 #### Downloads :
 
 <br>
-To download weights
+To download weights 
 
-(click here)[https://drive.google.com/drive/folders/1u-gjL8CBy_7SahyeMcHbwK1FLJKIiehT?usp=drive_link] and save in models folder.
+[click here](https://drive.google.com/drive/folders/1u-gjL8CBy_7SahyeMcHbwK1FLJKIiehT?usp=drive_link)
 
-If you want to download original pytorch model (click here)[https://github.com/datvuthanh/HybridNets]
+and save in models folder.
+
+If you want to download original pytorch model [click here](https://github.com/datvuthanh/HybridNets)
 
 #### Key File :
 
- (video_road_detection.py)[https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Hybridnets/video_road_detection.py]  - 
+ [video_road_detection.py](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Hybridnets/video_road_detection.py)  - 
  Run this file for detecting lanes on video saved  in ```Test_videos``` folder
 
 #### Example :
 
-For more examples (click here)[https://drive.google.com/drive/folders/1quIkeXg076_x3DBXYCNrjGL8Qj7MdCqO?usp=drive_link]
+For more examples [click here](https://drive.google.com/drive/folders/1quIkeXg076_x3DBXYCNrjGL8Qj7MdCqO?usp=drive_link)
 
 #### Refrences :
 
