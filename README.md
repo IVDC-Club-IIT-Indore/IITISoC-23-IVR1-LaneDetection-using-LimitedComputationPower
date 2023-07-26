@@ -100,7 +100,7 @@ During our comprehensive testing, we considered multiple deep learning architect
   </thead>
   <tbody>
     <tr>
-      <td>CNN 1</td>
+      <td>CNN 2</td>
       <td> 129,498 </td>
       <td> 580.15 </td>
       <td> 0.939 </td>
@@ -111,7 +111,7 @@ During our comprehensive testing, we considered multiple deep learning architect
       <td> 0.72</td>
     </tr>
     <tr>
-      <td> CNN 2  </td>
+      <td> CNN 3  </td>
       <td> 181,693 </td>
       <td> 150.02 </td>
       <td> 0.980 </td>
@@ -122,7 +122,7 @@ During our comprehensive testing, we considered multiple deep learning architect
       <td> 0.72 </td>
     </tr>
     <tr>
-      <td> CNN 3 </td>
+      <td> CNN 1 </td>
       <td> 125,947 </td>
       <td> 55 </td>
       <td> 0.97 </td>
