@@ -198,4 +198,5 @@ During our comprehensive testing, we considered multiple deep learning architect
 model used in all three are trained on the BDD100k dataset.
 ![Comparison](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_Detection_and_Drivable_area_segmentation_using_YOLOPv2/data/demo/together_video.gif).
 
+A glimpse of the inference we obtained on our campus videos
 ![campus_test_video1_output54545 (1)](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/6288b3fe-f652-48d3-8807-f47516f7366a)
