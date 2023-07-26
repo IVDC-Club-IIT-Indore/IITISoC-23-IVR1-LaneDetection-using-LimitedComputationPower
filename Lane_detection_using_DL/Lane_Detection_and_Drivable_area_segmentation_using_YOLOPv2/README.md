@@ -47,6 +47,15 @@ conda create --name YOLOPv2
 conda activate YOLOPv2
 pip install -r requirements.txt
 ```
+afterwards you'll have to download the pretrained model file from [model](https://drive.google.com/drive/folders/16OZK_zvGecemXcUylyX_sc_z8lL8PS24) and upload it in weights folder inside data. The directory structure should look like this:
+```
+/data
+    weights
+        model_url.txt
+        yolopv2.pt
+    demo
+           
+```
 
 ## Day-time and Night-time visualization results
 <img src="https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_Detection_and_Drivable_area_segmentation_using_YOLOPv2/data/demo/day_and_night_results.jpg" width="400" height="400" />
