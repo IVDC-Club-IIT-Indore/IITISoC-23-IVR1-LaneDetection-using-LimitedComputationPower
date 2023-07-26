@@ -1,4 +1,4 @@
-# IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower
+![campus_test_video1_output54545 (1)](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/6288b3fe-f652-48d3-8807-f47516f7366a)# IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower
 ## Goal :
 To Develop a robust lane detection pipeline that consumes meager computational resources (No GPU allowed, limited CPU and RAM usage) and could be deployed on NVIDIA Jetson Nano Board or even a Raspberry Pi board
 
@@ -196,4 +196,10 @@ During our comprehensive testing, we considered multiple deep learning architect
 
 ## Visualization
 model used in all three are trained on the BDD100k dataset.
-![Comparison](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_Detection_and_Drivable_area_segmentation_using_YOLOPv2/data/demo/together_video.gif).
+![Comparison](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-
+
+
+![campus_test_video1_output54545 (1)](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/4f67f898-1626-4a28-989a-5599382cf61a)
+
+
+LimitedComputationPower/blob/main/Lane_detection_using_DL/Lane_Detection_and_Drivable_area_segmentation_using_YOLOPv2/data/demo/together_video.gif).
