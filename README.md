@@ -213,6 +213,9 @@ model used in all three are trained on the BDD100k dataset.
 A glimpse of the inference we obtained on our campus videos
 <img src="https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/6288b3fe-f652-48d3-8807-f47516f7366a" width = 1280 height = 180 >
 
+## Model Quantization: 
+In our pursuit of finding a balance between accuracy and computational efficiency, we explored the post-training quantization technique for one of the satisfactory models, YOLOP, which also boasts a simpler architecture compared to YOLOPv2. We chose YOLOP for quantization due to its smaller number of parameters and model size, making it more amenable to this process. In conclusion, the implementation of post-training quantization on YOLOP demonstrated its viability as an optimized solution for lane detection with limited computation power. This approach allows us to achieve near-comparable accuracy to the original model, YOLOP, while benefiting from reduced parameters and model size, thus making it well-suited for deployment in resource-constrained environments.
+
 ## Refrerences : 
 [1] MLND Capstone project for Udacity's Machine Learning Nanodegree, (2017), Github reposoitory, https://github.com/mvirgo/MLND-Capstone
 
