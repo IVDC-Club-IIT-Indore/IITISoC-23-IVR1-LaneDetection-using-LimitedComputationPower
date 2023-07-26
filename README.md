@@ -216,6 +216,9 @@ A glimpse of the inference we obtained on our campus videos
 ## Model Quantization: 
 In our pursuit of finding a balance between accuracy and computational efficiency, we explored the post-training quantization technique for one of the satisfactory models, YOLOP, which also boasts a simpler architecture compared to YOLOPv2. We chose YOLOP for quantization due to its smaller number of parameters and model size, making it more amenable to this process. In conclusion, the implementation of post-training quantization on YOLOP demonstrated its viability as an optimized solution for lane detection with limited computation power. This approach allows us to achieve near-comparable accuracy to the original model, YOLOP, while benefiting from reduced parameters and model size, thus making it well-suited for deployment in resource-constrained environments.
 
+## Deployment and Future Improvements
+After post-training static quantization we end up reducing our model size and get a balance between accuracy and computational efficiency. Now we are ready to deploy it on an edge computing device like te NVIDIA Jetson Xavier. In the future, we plan to deploy our lane detection pipeline on the NVIDIA Xavier platform, a powerful and energy-efficient system-on-a-chip (SoC) designed for edge computing and AI applications. The NVIDIA Xavier's advanced architecture and computational capabilities make it an ideal candidate for running deep learning models, even in real-time scenarios. The successful deployment on Xavier will pave the way for scalable and practical integration of our lane detection solution in various real-time applications.
+
 ## Refrerences : 
 [1] MLND Capstone project for Udacity's Machine Learning Nanodegree, (2017), Github reposoitory, https://github.com/mvirgo/MLND-Capstone
 
