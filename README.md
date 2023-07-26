@@ -219,7 +219,7 @@ In our pursuit of finding a balance between accuracy and computational efficienc
 ## Deployment and Future Improvements
 After post-training static quantization we end up reducing our model size and get a balance between accuracy and computational efficiency. Now we are ready to deploy it on an edge computing device like te NVIDIA Jetson Xavier. In the future, we plan to deploy our lane detection pipeline on the NVIDIA Xavier platform, a powerful and energy-efficient system-on-a-chip (SoC) designed for edge computing and AI applications. The NVIDIA Xavier's advanced architecture and computational capabilities make it an ideal candidate for running deep learning models, even in real-time scenarios. The successful deployment on Xavier will pave the way for scalable and practical integration of our lane detection solution in various real-time applications.
 
-<img src= "https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/data/demo/jetson-xavier-nx-dev-kit-2c50-D%402x.jpg" width="200" height="200" />
+<img src= "https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/data/demo/jetson-xavier-nx-dev-kit-2c50-D%402x.jpg" width="200" height="400" />
 
 ## Refrerences : 
 [1] MLND Capstone project for Udacity's Machine Learning Nanodegree, (2017), Github reposoitory, https://github.com/mvirgo/MLND-Capstone
