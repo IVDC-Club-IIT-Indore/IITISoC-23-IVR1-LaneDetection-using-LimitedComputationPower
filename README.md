@@ -135,6 +135,11 @@ During our comprehensive testing, we considered multiple deep learning architect
   </tbody>
 </table>
 <br>
+
+<strong> Graphical representation of comparison of models </strong>
+
+![Untitled design](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/bf0d2410-f003-48e4-af58-7d7d436c8dc3)
+
 <strong> Comparison of YOLOP, YOLOPV2, Hybridnets : </strong>
 <table align="center">
   <thead>
@@ -179,12 +184,9 @@ During our comprehensive testing, we considered multiple deep learning architect
   </tbody>
 </table>
 
-<strong> Graphical representation of comparison of models </strong>
-
-![Untitled design](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/bf0d2410-f003-48e4-af58-7d7d436c8dc3)
-
 
 ![graphical_comparison](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/117708050/50e9b6fe-977e-4376-9b4f-5908e4b82f7a)
+
 
 
 
