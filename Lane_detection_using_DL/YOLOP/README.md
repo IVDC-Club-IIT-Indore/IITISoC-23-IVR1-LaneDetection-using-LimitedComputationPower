@@ -9,9 +9,8 @@ Earlier we used traditional methods(canny edge and Hough Transform) for the lane
 A lightweight CNN is used as the encoder to extract features from the image. Then these feature maps are fed to three decoders to complete their respective tasks.
 
 ## Results
-#### Lane Detection
-
-#### Drivable area detection
+Output videos on which model is tested can be seen by [clicking here](https://drive.google.com/drive/u/0/folders/1_CCMGf2t9jftklbTtzbtalFi4jYPxBXe)
+<br>
 
 
 
@@ -57,7 +56,16 @@ YOLOP
 
 ```
 
-## Requirements
+### Requirements :
+ Give a command as :
+ ```
+cd YOLOP
+pip install -r requirements.txt
+
+ ```
+
+### Download :
+Download the weight from [here](https://drive.google.com/drive/u/0/folders/1_CCMGf2t9jftklbTtzbtalFi4jYPxBXe) and save in ```weights``` folder .
 
 
 ## Key files
@@ -98,3 +106,5 @@ To test on web-cam
 python tools/demo.py --source 0 -- save-dir inference/output
 ```
 ## Refrences
+- article : https://link.springer.com/article/10.1007/s11633-022-1339-y
+  
