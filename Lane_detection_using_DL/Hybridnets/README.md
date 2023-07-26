@@ -45,11 +45,8 @@ pip install -r requirements.txt
 #### Downloads :
 
 <br>
-To download weights 
 
-[click here](https://drive.google.com/drive/folders/1u-gjL8CBy_7SahyeMcHbwK1FLJKIiehT?usp=drive_link)
-
-and save in models folder.
+To download weights  [click here](https://drive.google.com/drive/folders/1u-gjL8CBy_7SahyeMcHbwK1FLJKIiehT?usp=drive_link) and save in models folder.
 
 If you want to download original pytorch model [click here](https://github.com/datvuthanh/HybridNets)
 
