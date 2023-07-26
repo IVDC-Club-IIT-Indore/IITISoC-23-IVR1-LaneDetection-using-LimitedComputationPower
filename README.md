@@ -128,8 +128,7 @@ During our comprehensive testing, we considered multiple deep learning architect
       <td> 0.97 </td>
       <td> 0.984 </td>
       <td> 0.99 </td>
-      
-      <td> </td>
+      <td> 5 </td>
       <td> 0.987 </td>
       <td> 0.976 </td>
     </tr>
@@ -163,7 +162,10 @@ During our comprehensive testing, we considered multiple deep learning architect
       <td> <strong> YOLOPv2 </strong></td>
       <td> 48.64 </td>
       <td> 38,955 </td>
-      <td> 0.42 </td>
+      <td> 0.87 </td>
+      <td> 0.27 </td>
+      <td> 0.93 </td>
+      <td> 41 </td>
     </tr>
     <tr>
       <td> <strong> Hybridnets </strong></td>
@@ -176,6 +178,13 @@ During our comprehensive testing, we considered multiple deep learning architect
     </tr>
   </tbody>
 </table>
+
+<strong> Graphical representation of comparison of models </strong>
+
+![graphical_comparison](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/117708050/50e9b6fe-977e-4376-9b4f-5908e4b82f7a)
+
+
+
 
 ## Visualization
 model used in all three are trained on the BDD100k dataset.
