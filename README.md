@@ -192,6 +192,7 @@ During our comprehensive testing, we considered multiple deep learning architect
 
 ![graphical_comparison](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/117708050/50e9b6fe-977e-4376-9b4f-5908e4b82f7a)
 
+![graphical_comparison](https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/data/demo/YOLOP_HybridNets_YOLOPv2_campus_gif.mp4)
 
 
 
