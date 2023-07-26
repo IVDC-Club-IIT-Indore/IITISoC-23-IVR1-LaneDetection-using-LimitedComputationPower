@@ -36,6 +36,7 @@ In this approach, traditional computer vision techniques were employed to detect
 - **Post-processing** : The detected lines were further processed to combine and extend them to form complete lane 
                         boundaries.
 #### Predicted Results :
+<img src="https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/data/demo/predicted_result.jpg" width="400" height="400" />
 
 
 
