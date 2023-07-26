@@ -212,3 +212,30 @@ model used in all three are trained on the BDD100k dataset.
 
 A glimpse of the inference we obtained on our campus videos
 <img src="https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/6288b3fe-f652-48d3-8807-f47516f7366a" width = 1280 height = 180 >
+
+## Refrerences : 
+[1]MLND Capstone project for Udacity's Machine Learning Nanodegree, (2017), Github reposoitory, https://github.com/mvirgo/MLND-Capstone
+
+[2] Pytorch Profiler ,PyTorch Recipes[ + ], https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html
+
+[3] article : https://link.springer.com/article/10.1007/s11633-022-1339-y
+
+[4]Vision Transformers for Computer Vision[+],https://towardsdatascience.com/using-transformers-for-computer-vision-6f764c5a078b
+
+[5] Chuan-en Lin (2018 , Dec. 17). “Tutorial: Build a lane detector”, Available: https://towardsdatascience.com/tutorial-build-a-lane-detector-679fd8953132.[Apr 06, 2019]\
+
+[6]HybridNets model : https://github.com/datvuthanh/HybridNets
+- Original Paper : https://arxiv.org/abs/2203.09035
+
+[7] ibaiGorordo / ONNX-LSTR-Lane-Detection(2021), Github repository, https://github.com/ibaiGorordo/ONNX-LSTR-Lane-Detection
+
+[8]liuruijin17 / LSTR(2020), Github Repository, https://github.com/liuruijin17/LSTR
+  
+[9]CAIC-AD / YOLOPv2(2022), Github Repository, https://github.com/CAIC-AD/YOLOPv2
+
+[10]YOLOPv2 NCNN C++ Demo: [YOLOPv2-ncnn](https://github.com/FeiGeChuanShu/YOLOPv2-ncnn).
+
+[11]YOLOPv2 ONNX and OpenCV DNN Demo: [yolopv2-opencv-onnxrun-cpp-py](https://github.com/hpc203/yolopv2-opencv-onnxrun-cpp-py).
+
+
+
