@@ -1,6 +1,6 @@
 # IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower
 
-<img src="https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/10cf6b34-fb81-4bc9-90c3-4c2df9ebd510" width = 1280 height = 725>
+<img src="https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/assets/125551038/10cf6b34-fb81-4bc9-90c3-4c2df9ebd510" width = 848 height = 480>
 
 
 ## Goal :
