@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Aug 10 01:21:03 2023
+
+@author: arjun
+"""
+import codecs
 import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
@@ -21,8 +28,8 @@ print('after imagehub')
 
 while True:  # Show streamed images until Ctrl-C
     rpi_name, image = image_hub.recv_image()
-    image_hub.send_reply(b'OK')
-    
+    #image_hub.send_reply(b'hii')
+    print('change')
     lanes = Lanes()
     
     small_img = cv2.resize(image, (160, 80))
@@ -31,10 +38,22 @@ while True:  # Show streamed images until Ctrl-C
     prediction = model.predict(np.expand_dims(small_img_preprocessed, axis=0))[0] * 255.0
     lanes.recent_fit.append(prediction)
     
+    
+    
     if len(lanes.recent_fit) > 5:
         lanes.recent_fit = lanes.recent_fit[1:]
         
     lanes.avg_fit = np.mean(np.array([i for i in lanes.recent_fit]), axis=0)
+    
+    #fill angle code here
+    
+    angle = 45.0
+    
+    
+    strangle = str(angle)
+    b_string = codecs.encode(strangle, 'utf-8')
+    
+    image_hub.send_reply(b_string)
     
     blanks = np.zeros_like(lanes.avg_fit).astype(np.uint8)
     lane_drawn = np.dstack((blanks, lanes.avg_fit, blanks))
