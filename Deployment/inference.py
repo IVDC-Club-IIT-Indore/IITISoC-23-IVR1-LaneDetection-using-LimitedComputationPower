@@ -46,11 +46,17 @@ while True:  # Show streamed images until Ctrl-C
     lanes.avg_fit = np.mean(np.array([i for i in lanes.recent_fit]), axis=0)
     
     #fill angle code here
+    # Find the index of the peak value in the prediction array
+    peak_index = np.argmax(lanes.avg_fit)
+    # Calculate the angle based on the peak index and image width
+    image_width = lanes.avg_fit.shape[0]
+    max_angle = 45.0  # Maximum angle in degrees
+    lane_angle = (peak_index / 12800-0.5) * max_angle * 2.0
     
-    angle = 45.0
     
     
-    strangle = str(angle)
+    
+    strangle = str(lane_angle)
     b_string = codecs.encode(strangle, 'utf-8')
     
     image_hub.send_reply(b_string)
