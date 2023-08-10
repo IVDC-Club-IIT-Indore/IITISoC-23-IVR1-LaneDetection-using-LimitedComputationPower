@@ -8,11 +8,11 @@ import socket
 GPIO.setmode(GPIO.BOARD)
 
 # Define motor pins
-ena_pin = 11
-in1_pin = 13
+ena_pin = 12
+in1_pin = 11
 in2_pin = 15
 
-enb_pin = 16
+enb_pin = 13
 in3_pin = 18
 in4_pin = 22
 
