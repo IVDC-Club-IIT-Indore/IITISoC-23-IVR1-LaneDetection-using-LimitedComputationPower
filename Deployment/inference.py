@@ -32,21 +32,24 @@ while True:  # Show streamed images until Ctrl-C
     prediction = model.predict(np.expand_dims(small_img_preprocessed, axis=0))[0] * 255.0
     lanes.recent_fit.append(prediction)
     
-    
-    
     if len(lanes.recent_fit) > 5:
-        lanes.recent_fit = lanes.recent_fit[1:]
-        
+       lanes.recent_fit = lanes.recent_fit[1:]
+       
     lanes.avg_fit = np.mean(np.array([i for i in lanes.recent_fit]), axis=0)
     
-    #fill angle code here
-    # Find the index of the peak value in the prediction array
-    peak_index = np.argmax(lanes.avg_fit)
-    # Calculate the angle based on the peak index and image width
-    image_width = lanes.avg_fit.shape[0]
+# Calculate the center of the drivable area near the vehicle
+    near_center = len(prediction) // 2
+
+# Calculate the center of the detected lane image farther down the road
+# Find the indices where the values are above a certain threshold
+    threshold = 0.5  # You can adjust this threshold based on your specific case
+    lane_indices = np.where(prediction > threshold)[0]
+    far_center = int(np.mean(lane_indices)) if len(lane_indices) > 0 else near_center
+
+# Calculate the angle based on the difference between these centers
+    image_width = len(prediction)
     max_angle = 45.0  # Maximum angle in degrees
-    lane_angle = (peak_index / 12800-0.5) * max_angle * 2.0
-    
+    lane_angle = ((far_center - near_center) / image_width) * max_angle
     
     
     
