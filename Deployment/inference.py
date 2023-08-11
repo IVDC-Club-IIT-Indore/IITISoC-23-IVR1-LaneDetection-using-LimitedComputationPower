@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Aug 10 01:21:03 2023
-
-@author: arjun
-"""
 import codecs
 import cv2
 import numpy as np
