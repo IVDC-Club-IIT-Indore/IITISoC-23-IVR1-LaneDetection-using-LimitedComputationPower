@@ -29,31 +29,58 @@ while True:  # Show streamed images until Ctrl-C
     small_img = cv2.resize(image, (160, 80))
     small_img_preprocessed = small_img  # Replace with your preprocessing logic
     
-    prediction = model.predict(np.expand_dims(small_img_preprocessed, axis=0))[0] * 255.0
-    lanes.recent_fit.append(prediction)
     
+    prediction_matrix = model.predict(np.expand_dims(small_img_preprocessed, axis=0))[0] * 255.0  #1 channeled image
+    lanes.recent_fit.append(prediction_matrix)
+    print(type(prediction_matrix))
+    
+    print(len(lanes.recent_fit))
+    #cv2.imshow('recentfit', lanes.recent_fit() )
     if len(lanes.recent_fit) > 5:
        lanes.recent_fit = lanes.recent_fit[1:]
        
     lanes.avg_fit = np.mean(np.array([i for i in lanes.recent_fit]), axis=0)
     
+    
+    print(len(lanes.avg_fit.shape))
+    #cv2.imshow('avgfit', lanes.avg_fit() )
+    
+    
 # Calculate the center of the drivable area near the vehicle
-    near_center = len(prediction) // 2
-
+    print("prediction shape : ", prediction_matrix.shape )
+    print(prediction_matrix)
+    cv2.imshow('prediction', prediction_matrix)
+    near_center_x = len(prediction_matrix[0]) // 2
+    image_height = len(prediction_matrix)
+    
+    near_center_y = image_height
+    print(near_center_x ,image_height )
+   
 # Calculate the center of the detected lane image farther down the road
 # Find the indices where the values are above a certain threshold
     threshold = 0.5  # You can adjust this threshold based on your specific case
-    lane_indices = np.where(prediction > threshold)[0]
-    far_center = int(np.mean(lane_indices)) if len(lane_indices) > 0 else near_center
-
+    
+    
+    lane_indices = np.where(prediction_matrix > threshold)[0]  #improve to get actual centre
+    
+    print('lane indices: ' , len(lane_indices))
+    far_center_y = int(np.mean(lane_indices)) if len(lane_indices) > 0 else near_center_x #avg row 
+    
+    
+    out =  np.where( prediction_matrix[far_center_y] > threshold)[0]
+    
+    far_center_x = int(np.mean( out  ))
+    
+    print('far center : ', far_center_x, far_center_y)
 # Calculate the angle based on the difference between these centers
-    image_width = len(prediction)
-    max_angle = 45.0  # Maximum angle in degrees
-    lane_angle = ((far_center - near_center) / image_width) * max_angle
+    image_width = len(prediction_matrix[0])
+    #max_angle = 45.0  # Maximum angle in degrees
     
+    rad_angle = np.arctan(  ( far_center_x - near_center_x) / (near_center_y - far_center_y ) )
+    angle = rad_angle*(180/np.pi)
+    #lane_angle = ((far_center - near_center) / image_width ) * max_angle
     
-    
-    strangle = str(lane_angle)
+    strangle = str(angle)
     b_string = codecs.encode(strangle, 'utf-8')
     
     image_hub.send_reply(b_string)
