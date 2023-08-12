@@ -7,13 +7,32 @@ from imagezmq import ImageHub
 import time
 
 # Load the pre-trained model with custom loss functions...
-model = load_model(r"C:\Users\arjun\OneDrive\Desktop\IITISoc_direct_Implementation\CNN1(Ampady)\Trained_model.h5")
+model = load_model(r"C:\Users\arjun\Downloads\LLDNet.h5")
 
 # Class to average lanes with
 class Lanes():
     def __init__(self):
         self.recent_fit = []
         self.avg_fit = []
+
+def find_avg_angle(far_center_x , near_center_x , near_center_y ,far_center_y ):
+    
+
+    sum_angles = 0 
+    
+    #centers = [ i for i in range(-5, 6,1) ]
+    #centers = [  i for i in range(-20, 21,1) ]
+    centers = [ i for i in range(-10, 11,1) ]
+    
+    for i in centers:
+        
+        rad_angle = np.arctan(  ( far_center_x - (near_center_x + i)) / (near_center_y - far_center_y ) )
+        angle = rad_angle*(180/np.pi)
+        sum_angles += angle
+        print(angle)
+    
+    return sum_angles/len(centers)
+
 
 # Initialize ImageHub to receive frames from the webcam on the Raspberry Pi
 print('before imagehub')
@@ -48,13 +67,13 @@ while True:  # Show streamed images until Ctrl-C
     
 # Calculate the center of the drivable area near the vehicle
     print("prediction shape : ", prediction_matrix.shape )
-    print(prediction_matrix)
+    #print(prediction_matrix)
     cv2.imshow('prediction', prediction_matrix)
     near_center_x = len(prediction_matrix[0]) // 2
     image_height = len(prediction_matrix)
     
     near_center_y = image_height
-    print(near_center_x ,image_height )
+    print('near center: ' , near_center_x ,image_height )
    
 # Calculate the center of the detected lane image farther down the road
 # Find the indices where the values are above a certain threshold
@@ -76,8 +95,10 @@ while True:  # Show streamed images until Ctrl-C
     image_width = len(prediction_matrix[0])
     #max_angle = 45.0  # Maximum angle in degrees
     
-    rad_angle = np.arctan(  ( far_center_x - near_center_x) / (near_center_y - far_center_y ) )
-    angle = rad_angle*(180/np.pi)
+    
+    angle = find_avg_angle(far_center_x , near_center_x , near_center_y ,far_center_y )
+    #rad_angle = np.arctan(  ( far_center_x - near_center_x) / (near_center_y - far_center_y ) )
+    #angle = rad_angle*(180/np.pi)
     #lane_angle = ((far_center - near_center) / image_width ) * max_angle
     
     strangle = str(angle)
