@@ -53,8 +53,8 @@ error_I = 0
  
 # Control motors based on lane angle
 def control_motors(error_I, angle):
-    MAX_SPEED = 50  #prolly decrease it
-    BASE_SPEED = 37
+    MAX_SPEED = 80  #prolly decrease it
+    BASE_SPEED = 50
     ANGLE_THRESHOLD = 15.0
  
     #Scaling the angle & Integral control
@@ -72,10 +72,10 @@ def control_motors(error_I, angle):
  
     if angle > ANGLE_THRESHOLD: #right
         Kl = R_STEER_CONSTANT
-        Kr= -0.25
+        Kr= -0.6
     elif angle < -ANGLE_THRESHOLD:
         Kr = -L_STEER_CONSTANT#?????
-        Kl = 0.25
+        Kl = 0.6
  
  
     speeds[0] = BASE_SPEED + int(angle * Kl) #+ K_I*error_I
@@ -125,7 +125,7 @@ try:
  
  
  
-        cv2.imshow('orig img', image)
+        #cv2.imshow('orig img', image)
  
         invimg= 255 - image
  
@@ -252,3 +252,4 @@ except KeyboardInterrupt:
     ENB.stop()
     GPIO.cleanup()
     cv2.destroyAllWindows()
+ 
