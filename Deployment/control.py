@@ -36,17 +36,17 @@ IN4 = in4_pin
 ENA.start(0)
 ENB.start(0)
  
-GPIO.output(IN1,GPIO.HIGH)
-GPIO.output(IN2,GPIO.LOW)   
-GPIO.output(IN3,GPIO.HIGH)
-GPIO.output(IN4,GPIO.LOW)
+GPIO.output(IN1,GPIO.LOW)
+GPIO.output(IN2,GPIO.HIGH)   
+GPIO.output(IN3,GPIO.LOW)
+GPIO.output(IN4,GPIO.HIGH)
  
 error_I = 0
  
 # Control motors based on lane angle
 def control_motors(error_I, angle):
-    MAX_SPEED = 50  #prolly decrease it
-    BASE_SPEED = 20
+    MAX_SPEED = 100  #prolly decrease it
+    BASE_SPEED = 50
     ANGLE_THRESHOLD = 15.0
  
     #Scaling the angle & Integral control
@@ -66,8 +66,9 @@ def control_motors(error_I, angle):
         Kl = R_STEER_CONSTANT
         Kr= -1.85
     elif angle < -ANGLE_THRESHOLD:
-        Kr = L_STEER_CONSTANT#?????
-        Kl = -1.85 
+        Kr = -L_STEER_CONSTANT#?????
+        Kl = 1.85 
+ 
  
  
     speeds[0] = BASE_SPEED + int(angle * Kl) #+ K_I*error_I
