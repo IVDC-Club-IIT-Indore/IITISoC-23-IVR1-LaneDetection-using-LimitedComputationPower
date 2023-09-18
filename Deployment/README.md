@@ -1,6 +1,8 @@
 ## Deployment
 Before deploying our models onto edge computing device like te NVIDIA Jetson Xavier NX  , we first thought of deploying it on an Raspberry pi 4 Model B (8 GB RAM).
 
+<img src="https://github.com/IVDC-Club-IIT-Indore/IITISoC-23-IVR1-LaneDetection-using-LimitedComputationPower/blob/main/Deployment/data/Sequence%2001%20(1).gif" width="848" height="480" />
+
 # Vehicle Development
 The vehicle selection, design and testing were done in many steps.Some of the major improvements include:
 
